@@ -97,19 +97,19 @@ body {
 }
 
 .textblock h2 {
- padding-top: 10px;
- font-size: 4vw;
- padding-bottom: 0px;
+  padding-top: 10px;
+  font-size: 4vw;
+  padding-bottom: 0px;
 }
 
 .six .textblock {
- border-color: #ecb0c4;
+  border-color: #ecb0c4;
 }
 
 .seven .textblock {
- border-color: #8eb7df;
+  border-color: #8eb7df;
 }
 
 .eight .textblock {
- border-color: #fbe77e;
+  border-color: #fbe77e;
 }
