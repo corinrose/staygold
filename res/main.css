@@ -1,9 +1,13 @@
-
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirNext-UltraLight.ttf) format("truetype");
+  font-style: normal;
+}
 
 body {
   background-color: #4b4a4c;
   color: #fff;
-  font-family: "Avenir Next Ultralight", sans-serif;
+  font-family: Avenir, sans-serif;
   margin: 0px;
 }
 
@@ -93,18 +97,16 @@ h1 {
 
 .textblock p {
   margin: 0px;
-  font-size: 2vw;
-}
-
-.eight .textblock p {
+  font-size: 1.5vw;
   position: relative;
-  top: -20px;
+  top: 10%;
 }
 
 .textblock h2 {
-  padding-top: 10px;
   font-size: 4vw;
   padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .six .textblock {
@@ -125,7 +127,7 @@ h1 {
 
 .wrapper3 p {
   margin: 0px;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .wrapper3 img {
