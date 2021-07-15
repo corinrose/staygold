@@ -1,1 +1,1 @@
-# staygold.github.io
+# staygold
