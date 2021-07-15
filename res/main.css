@@ -11,11 +11,6 @@ body {
   margin: 0px;
 }
 
-
-h1 {
-  font-size: 8vh;
-}
-
 .wrapper1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -32,11 +27,6 @@ h1 {
 .two img {
   height: 80px;
   padding-top: 5vh;
-}
-
-.four h1 {
-  margin: 0px;
-  font-size: 8vh;
 }
 
 .one {
@@ -60,7 +50,13 @@ h1 {
   grid-row: 3;
 }
 
-
+@media only screen
+and (min-width: 700px)
+{ 
+.four h1 {
+  margin: 0px;
+  font-size: 8vh;
+}
 .wrapper2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -68,6 +64,22 @@ h1 {
   grid-auto-rows: minmax(100px, auto);
   height: 34vh;
   background-color: #4a4a4c;
+}
+
+.textblock p {
+  margin: 0px;
+  font-size: 1.5vw;
+  position: relative;
+  top: 10%;
+}
+
+.textblock h2 {
+  font-size: 4vw;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 }
 
 .six {
@@ -91,22 +103,7 @@ h1 {
   top: -10vw;
  
   text-align: center;
-
   border-style: solid;
-}
-
-.textblock p {
-  margin: 0px;
-  font-size: 1.5vw;
-  position: relative;
-  top: 10%;
-}
-
-.textblock h2 {
-  font-size: 4vw;
-  padding-bottom: 0px;
-  margin-top: 10px;
-  margin-bottom: 5px;
 }
 
 .six .textblock {
@@ -134,4 +131,44 @@ h1 {
   height: 20px;
   position: relative;
   top: 4px;
+}
+
+@media only screen
+and (max-width: 700px)
+{ 
+body {
+  overflow-x: hidden;
+}
+
+.wrapper2 {
+  grid-template-columns: repeat(1, 1fr);
+  height: 100vh;
+  position: relative;
+  left: 8vw;
+  margin: auto; 
+  margin-bottom: 110vh;
+}
+
+.textblock {
+  top: -10vh;
+  width: 75vw;
+  height: 75vw;
+  margin-bottom: 50px;
+}
+
+.textblock h2 {
+  font-size: 12vw;
+}
+
+.textblock p {
+  font-size: 5vw;
+}
+
+.eight .textblock p {
+  position: relative;
+  top: -50px;
+}
+.four h1 {
+  font-size: 6vh;
+}
 }
