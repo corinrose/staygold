@@ -1,3 +1,12 @@
+
+
+body {
+  color: #fff;
+  font-family: "Avenir Next Ultralight", sans-serif;
+  overflow: hidden;
+  margin: 0px;
+}
+
 .wrapper1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -8,12 +17,12 @@
 
 .one, .two, .three, .four, .five {
   background-color: #323232;
-  color: #b7b7b7;
   text-align: center;
 }
 
 .two img {
-	padding-top: 5vh;
+  height: 80px;
+  padding-top: 5vh;
 }
 
 .four h1 {
@@ -66,22 +75,41 @@
 
 .textblock {
   background-color: #3a3a3c;
-  width: 30vw;
-  height: 30vw;
-  margin-left: 1.5vw;
+  width: 25vw;
+  height: 25vw;
+  margin-left: 3.5vw;
   position: relative;
-  top: -15vw;
+  top: -10vw;
  
-  color: #a3a3a5;
   text-align: center;
+
+  border-style: solid;
 }
 
 .textblock p {
   margin: 0px;
- font-size: 2.5vw;
+  font-size: 2vw;
+}
+
+.eight .textblock p {
+  position: relative;
+  top: -20px;
 }
 
 .textblock h2 {
  padding-top: 10px;
- font-size: 5vw;
+ font-size: 4vw;
+ padding-bottom: 0px;
+}
+
+.six .textblock {
+ border-color: #ecb0c4;
+}
+
+.seven .textblock {
+ border-color: #8eb7df;
+}
+
+.eight .textblock {
+ border-color: #fbe77e;
 }
