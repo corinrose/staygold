@@ -1,10 +1,15 @@
 
 
 body {
+  background-color: #4b4a4c;
   color: #fff;
   font-family: "Avenir Next Ultralight", sans-serif;
-  overflow: hidden;
   margin: 0px;
+}
+
+
+h1 {
+  font-size: 8vh;
 }
 
 .wrapper1 {
@@ -112,4 +117,19 @@ body {
 
 .eight .textblock {
   border-color: #fbe77e;
+}
+
+.wrapper3 {
+  text-align: center;
+}
+
+.wrapper3 p {
+  margin: 0px;
+  font-size: 1.5vw;
+}
+
+.wrapper3 img {
+  height: 20px;
+  position: relative;
+  top: 4px;
 }
